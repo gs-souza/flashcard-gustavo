@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap&#);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
     --text-color: #DBE4EF;
@@ -53,12 +53,12 @@ body {
     margin-top: 4rem;
 }
 
-.cartao_conteudo_pergunta p {
+.cartao__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
 }
 
-.cartao_conteudo_resposta p {
+.cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
 }
@@ -67,15 +67,15 @@ body {
     transform: rotateY(180deg);
 }
 
-.cartao_conteudo_pergunta,
-.cartao_conteudo_resposta {
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.cartao_conteudo_resposta {
+.cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
 
